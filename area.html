@@ -19,14 +19,14 @@
                 Select an option below as per the data you have for a triangle
 
             </h2>
-            <div class="area-container">
+            <div class="area-container" id="area-container1">
                 If you have base and height length
             </div>
-            <div class="area-container">
+            <div class="area-container" id="area-container2">
                 If you have length of 3 sides
             </div>
 
-            <div class="baseheight">
+            <div id="area1ID" class="baseheight hidden">
                 <form class="form1">
                     <label class="label">b =<input class="hypo-input" 
                     type="number" min="1" required>
@@ -38,7 +38,7 @@
                 </form>
                 <h2>Area will be calculated here-</h2>
                 <div class="output">
-                    <div class="output-box" id="area-outputID">
+                    <div class="output-box" id="area-outputID1">
                         <!-- Output Will be shown here  -->
                         Area= 1/2*base*height
                     </div>
@@ -46,7 +46,7 @@
             </div>
 
 
-            <div class="threesides">
+            <div id="area2ID" class="threesides hidden">
                 <form class="form2">
                     <label class="label">a =<input class="hypo-input" 
                     type="number" min="1" required>
@@ -61,7 +61,7 @@
                 </form>
                 <h2>Area will be calculated here-</h2>
                 <div class="output">
-                    <div class="output-box" id="area-outputID">
+                    <div class="output-box" id="area-outputID2">
                         <!-- Output Will be shown here  -->
                         Area= √s(s-a)(s-b)(s-c)
                     </div>
@@ -70,6 +70,6 @@
 
         </div>
     </main>
-    
+    <script src="area.js"></script>
 </body>
 </html>
