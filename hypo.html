@@ -5,12 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuese | Triangle</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
         <div class="main">
             <a href="index.html" ><button class="btn-back">Go back</button></a>
-            <h1>Enter the angles in below input boxes and we will tell you if those angles make a Triangle</h1>
+            <h1>Enter the lengths of sides of right angle triangle</h1>
+            <div class="image"><img class="img" src="images/triangle.png"></div>
+            <form class="form">
+                <label class="label">a =<input class="hypo-input" 
+                type="number" min="0.1" required>
+                </label>
+                <label class="label">b =<input class="hypo-input" 
+                    type="number" min="0.1" required>
+                </label>
+                <button id="hypo-submitID" class="submit-side" >Submit</button>
+            </form>
+            <h2>Hypotenuse will be calculated here-</h2>
+            <div class="output">
+                <div class="output-box" id="hypo-outputID">
+                    <!-- Output Will be shown here  -->
+                    C= √(a<sup>2</sup>+b<sup>2</sup>)
+                </div>
+            </div>
         </div>
     </main>
 </body>
