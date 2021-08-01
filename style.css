@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-
+:root{
+    --primary-color:#4F46E5;
+    --darker-color:#4C1D95;
+}
 
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    
 
+}
+
+main{
+    max-width: 600px;
+    margin: auto;
 }
 
 .primary-head{
@@ -20,7 +29,60 @@ body {
     font-size: 1.5rem;
 }
 
-.back-btn{
+.btn-back{
     font-size: 1.5rem;
     border-radius: 0.5rem;
+    color: var(--primary-color);
+    background-color: white;
+    padding: 0.3rem;
+    cursor: pointer;
+}
+
+.btn-container{
+    font-size: 1.7rem;
+    text-align: center;
+    /* padding: 2rem; */
+    background-color: var(--primary-color);
+    color: white;
+    width:10rem;
+    height:7rem ;
+    border-radius: 00.5rem;
+
+}
+
+.link-btncontainer{
+    text-decoration: none;
+}
+
+.link-btncontainer :hover{
+    background-color: var(--darker-color);
+}
+
+.btn-submit{
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    padding: 00.3rem;
+    border-radius: 0.5rem;
+}
+
+.label{
+    font-size: 1.5rem;
+}
+
+.input-container{
+    font-size: 1.5rem;
+    width: 20%;
+}
+
+/* ==================================
+    component library part over
+=================================== */
+
+
+.main-menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px;
+    justify-content: center;
 }
