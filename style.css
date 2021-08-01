@@ -200,3 +200,23 @@ area triangle
     cursor: pointer;
     
 }
+
+.baseheight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+
+
+.threesides{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    margin-top: 4rem;
+}
