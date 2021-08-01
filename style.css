@@ -169,3 +169,34 @@ hypotenuese
 .hypo-main{
     margin-top: 1.5rem;
 }
+
+
+/* 
+=====================
+area triangle
+===================== */
+
+
+.area-main{
+    margin-top: 2rem;
+}
+
+.area-head{
+    margin-bottom: 0.5rem;
+
+}
+
+
+.area-container{
+    margin: auto;
+    font-size: 1.3rem;
+    background-color: var(--primary-color);
+    padding: 00.5rem;
+    margin-top: 1rem;
+    color: white;
+    text-align: center;
+    width: 70%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    
+}
