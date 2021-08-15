@@ -221,13 +221,25 @@ area triangle
     margin-top: 4rem;
 }
 
+/* 
+=====================
+quiz part :start
+======================= */
 
+.radio-question{
+    text-align: left;
+    padding: 0.5rem;
+}
 
+.question{
+    display: block;
+}
 
-
-
-
-
+.label-quiz{
+    display: inline-block;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 
 
 
