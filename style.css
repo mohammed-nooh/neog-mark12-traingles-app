@@ -253,6 +253,28 @@ quiz part :start
 
 
 
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 98%;
+    margin: auto;
+    overflow-x: hidden;
+    font-size: 1.5rem;
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 0.3rem;
+    color: white;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: black;
+}
+
+.icon{
+    padding: 0px 15px 10px 15px;
+}
+
 
 
 
