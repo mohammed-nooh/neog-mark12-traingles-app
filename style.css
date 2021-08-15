@@ -3,6 +3,8 @@
 :root{
     --primary-color:#4F46E5;
     --darker-color:#4C1D95;
+    --correct-answer:#A7F3D0;
+    --wrong-answer:#FECACA;
 }
 
 body {
@@ -229,6 +231,7 @@ quiz part :start
 .radio-question{
     text-align: left;
     padding: 0.5rem;
+    margin-top: 00.5rem;
 }
 
 .question{
